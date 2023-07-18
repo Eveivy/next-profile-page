@@ -16,8 +16,13 @@ module.exports = {
         center: true,
       },
       colors:{
-        teal: {955: "#075985"}
-      }
+        teal: {955: "#075985"},
+        gray: {955: "#C4C4C4"},
+      },
+      height:{
+         "42": "10.625rem",
+         "65": "17.375rem"
+      },
     },
   },
   plugins: [],

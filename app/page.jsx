@@ -8,7 +8,7 @@ import { FcGoogle } from "react-icons/fc";
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
-const ProfilePortfolio = () => {
+const Profile = () => {
    const [active, setActive] = useState(true)
 
   return (
@@ -120,11 +120,11 @@ const ProfilePortfolio = () => {
           <span onClick={() => setActive(false)} className={`bg-zinc-100 rounded-lg flex items-center px-3 py-2 font-bold ${!active ? 'text-indigo-700': 'text-black'} text-xs cursor-pointer`}>Resume</span>
         </div>
         {
-          active ? <Portfolio/> : <Resume/>
+          active ? <Portfolio pic={profilePic}/> : <Resume/>
         }
       </div>
     </div>
   )
 }
 
-export default ProfilePortfolio;
+export default Profile;
