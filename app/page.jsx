@@ -9,30 +9,30 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 const Profile = () => {
-   const [active, setActive] = useState(true)
+   const [active, setActive] = useState(false)
 
   return (
-    <div className="container mx-auto flex items-center flex-col">
-      <div className="w-full p-8">
-        <div className="relative h-44 self-stretch rounded-t-2xl bg-gradient-to-r from-blue-600 via-sky-500 to-indigo-800">
+    <div className="container md:mx-auto flex items-center flex-col">
+      <div className="w-full md:p-8">
+        <div className="relative md:h-44 h-28 self-stretch md:rounded-t-2xl bg-gradient-to-r from-blue-600 via-sky-500 to-indigo-800">
           <div className="flex justify-end">
             <button className="backdrop-blur-xl flex items-center bg-white/30 text-xs px-3 py-2 text-white rounded m-5">
               <LuEdit className='text-sm' />
               <span className='ps-1 mt-px'>Edit Cover </span>
             </button>
           </div>
-          <div className="absolute top-28 left-0 h-32 w-32 ml-6 shrink-0 border-slate-50 border-2 rounded-full">
+          <div className="absolute md:top-28 top-14 md:left-0 md:h-32 md:w-32 w-24 h-24 md:ml-6 ml-4 shrink-0 border-slate-50 border-2 rounded-full">
             <div className="relative">
               <Image src={profilePic} alt='profile image' />
               <div className="absolute bottom-0 right-0 bg-black rounded-full text-white text-lg font-bold w-8 h-8 p-2 flex items-center"><span className='ps-0.5 flex items-center'>5</span></div>
             </div>
           </div>
         </div>
-        <div className="border-zinc-100 border-2 border-t-0 p-6 rounded-b-2xl items-start flex justify-start">
-          <div className="ml-40">
+        <div className="border-zinc-100 border-2 border-t-0 md:p-6 p-2 rounded-b-2xl items-start flex justify-start">
+          <div className="md:ml-40 mt-10 md:mt-0">
             <div className="border-zinc-100 border-b-2 pb-8">
               <div className="flex items-center">
-                <h1 className='text-3xl font-extrabold'>Anna Cheng</h1>
+                <h1 className='md:text-3xl text-2xl font-extrabold'>Anna Cheng</h1>
                 <span className='ml-2 mt-1 bg-lime-400 rounded flex items-center px-3 py-0.5 font-bold text-black text-xs'>Pro</span>
                 <span className='ml-2 mt-1 bg-sky-100 text-teal-955 rounded flex items-center px-3 py-1 font-bold text-xs'>Looking for job</span>
               </div>
@@ -61,8 +61,8 @@ const Profile = () => {
               </div>
 
             </div>
-            <div className="py-8 flex items-center justify-between">
-              <div className="flex items-center">
+            <div className="py-8 md:flex items-center justify-between">
+              <div className="flex items-center justify-center md:justify-start pb-5 md:pb-0">
                 <Link href="" className="border-2 border-zinc-100 p-1 rounded-lg">
                   <FcGoogle className='w-5 h-5' />
                 </Link>
@@ -102,7 +102,7 @@ const Profile = () => {
                   </svg>
                 </Link>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center justify-center md:justify-start">
                 <button className='bg-gray-100 p-3 rounded-lg'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M8.59332 3.92004H3.40664C2.26664 3.92004 1.33331 4.85337 1.33331 5.99337V13.5667C1.33331 14.5334 2.02664 14.9467 2.87331 14.4734L5.49331 13.0134C5.77331 12.86 6.22665 12.86 6.49998 13.0134L9.11998 14.4734C9.96664 14.9467 10.66 14.5334 10.66 13.5667V5.99337C10.6666 4.85337 9.73332 3.92004 8.59332 3.92004Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -115,13 +115,15 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="border-zinc-100 border-2 p-6 rounded-2xl flex justify-start items-center my-10">
+        <div className="border-zinc-100 border-2 md:p-6 p-3 mx-1 rounded-2xl flex justify-start items-center my-10">
           <span onClick={() => setActive(true)} className={`mr-6 bg-zinc-100 rounded-lg flex items-center px-3 py-2 font-bold ${active ? 'text-indigo-700': 'text-black'} text-xs cursor-pointer`}>Portfolio</span>
           <span onClick={() => setActive(false)} className={`bg-zinc-100 rounded-lg flex items-center px-3 py-2 font-bold ${!active ? 'text-indigo-700': 'text-black'} text-xs cursor-pointer`}>Resume</span>
         </div>
-        {
-          active ? <Portfolio pic={profilePic}/> : <Resume/>
-        }
+        <div className="p-2">
+          {
+            active ? <Portfolio pic={profilePic}/> : <Resume/>
+          }
+        </div>
       </div>
     </div>
   )
