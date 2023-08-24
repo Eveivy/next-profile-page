@@ -7,10 +7,6 @@ import Link from 'next/link'
 const Navtabs = () => {
 
     const pathname = useSelectedLayoutSegment ();  
-
-    // const segments = pathname.split('/');
-    // const lastSegment = segments[segments.length - 1];
-    console.log(pathname)
    
     const [active, setActive] = useState(pathname)
 
