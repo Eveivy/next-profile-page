@@ -9,7 +9,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 const Profile = () => {
-   const [active, setActive] = useState(false)
+   const [active, setActive] = useState(true);
 
   return (
     <div className="container md:mx-auto flex items-center flex-col">
