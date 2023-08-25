@@ -1,19 +1,18 @@
-"use client"
+"use client" 
 
-import { useState } from 'react'
 import { useSelectedLayoutSegment, usePathname } from 'next/navigation'
 import Link from 'next/link'
 
 
 const Navtabs = ({title, path}) => {
 
-    const pathname = usePathname();
+    const pathname = useSelectedLayoutSegment();
     const active  = path === pathname 
-    
+
     return (
         <>
             {active && <div className="absolute bg-zinc-900 rounded-lg w-2.5 h-9 inset-y-0 left-0"></div>}
-            <Link href={path} className={`flex items-center self-stretch  px-6 my-2 ${active ? "text-zinc-900" : "text-zinc-400"} `}>
+            <Link href={`/settings/${path}`} className={`flex items-center self-stretch  px-6 my-2 ${active ? "text-zinc-900" : "text-zinc-400"} `}>
                 <span className='mr-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path d="M10 18.3333C14.6 18.3333 18.3333 14.6 18.3333 10C18.3333 5.4 14.6 1.66667 10 1.66667C5.4 1.66667 1.66666 5.4 1.66666 10C1.66666 14.6 5.4 18.3333 10 18.3333Z" stroke={active ? "#18181B" : "#A1A1AA"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

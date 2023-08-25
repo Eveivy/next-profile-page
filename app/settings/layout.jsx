@@ -8,10 +8,10 @@ export const metadatas = {
 }
 
 export const menu = [
-    { id: 1, title: "Profile", path: "/settings/update-profile" },
-    { id: 2, title: "Socials", path: "/settings/update-socials" },
-    { id: 3, title: "Portfolio", path: "/settings/update-portfolio" },
-    { id: 4, title: "Resume", path: "/settings/update-resume" }
+    { id: 1, title: "Profile", pathname: "update-profile" },
+    { id: 2, title: "Socials", pathname: "update-socials" },
+    { id: 3, title: "Portfolio", pathname: "update-portfolio" },
+    { id: 4, title: "Resume", pathname: "update-resume" }
 ]
 
 const layout = ({ children }) => {
@@ -25,7 +25,7 @@ const layout = ({ children }) => {
                             {
                                 menu.map((el) => { 
                                     return <li key={el.id} className="h-12 pr-4 rounded-xl text-start font-semibold text-base leading-6 relative">
-                                        <Navtabs title={el.title} path={el.path}/>
+                                        <Navtabs title={el.title} path={el.pathname}/>
                                     </li>
                                 })
                             }
