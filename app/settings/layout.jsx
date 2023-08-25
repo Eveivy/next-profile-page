@@ -31,9 +31,7 @@ const layout = ({ children }) => {
                             }
                         </ul>
                     </div>
-                    <div className="col-span-4">
-                        <div className="mb-4">{children}</div>
-                    </div>
+                    <div className="col-span-4"> {children} </div>
                 </div>
             </body>
         </html>
