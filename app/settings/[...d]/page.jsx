@@ -11,7 +11,7 @@ const editPages = () => {
     const path = usePathname();  
 
   return (
-    <div className="w-110 mr-28">
+    <div className="xl:w-110 w-full xl:mr-28 ml-14">
         {
             path === "/settings/update-resume" ? <EditResume /> 
             : path === "/settings/update-socials" ?  <EditSocials /> 

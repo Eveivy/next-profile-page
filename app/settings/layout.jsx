@@ -19,8 +19,8 @@ const layout = ({ children }) => {
     return (
         <html lang="en">
             <body className={inter.className}>
-                <div className="grid grid-cols-1 xl:grid-cols-5 gap-16 m-11">
-                    <div className="bg-zinc-50 py-6 rounded-2xl border border-zinc-100 h-60">
+                <div className="m-11">
+                    <div className="bg-zinc-50 py-6 rounded-2xl border border-zinc-100 h-60 fixed w-64">
                         <ul className="flex items-start flex-col justify-center self-stretch">
                             {
                                 menu.map((el) => { 
@@ -31,7 +31,7 @@ const layout = ({ children }) => {
                             }
                         </ul>
                     </div>
-                    <div className="col-span-4"> {children} </div>
+                    <div className="ml-auto w-4/5"> {children} </div>
                 </div>
             </body>
         </html>
