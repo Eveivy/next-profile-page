@@ -56,4 +56,33 @@
   left: calc(50% - 21px/2 + 10px);
   top: calc(50% - 21px/2);
 }
+ 
+/* .wrapper { 
+  cursor: pointer;
+  font-weight: 500; 
+  overflow: hidden;
+  margin-bottom: 0.375em;
+}
 
+.wrapper .radio-btn:checked {
+  background-color: #414181;
+  color: white;
+}
+
+.wrapper .radio-btn:checked + .span:before {
+  box-shadow: inset 0 0 0 0.4375em #00005c;
+}  
+
+.wrapper .span:before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em #00005c;
+}
+ */

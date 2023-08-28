@@ -117,7 +117,7 @@ const Portfolio = () => {
       <div className="my-10">
         <div className="grid-rows-1 mb-6 flex justify-between items-center">
           <h2 className="md:text-2xl text-xl font-bold">Projects</h2>
-          <Link href="/settings/update_profile" className="font-semibold text-indigo-600 text-sm md:text-base"><span>Create new project</span></Link>
+          <Link href="/settings/update-profile" className="font-semibold text-indigo-600 text-sm md:text-base"><span>Create new project</span></Link>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           <div className="bg-zinc-50 rounded-lg border border-zinc-100 flex flex-col justify-center items-start p-4">
@@ -437,7 +437,7 @@ const Portfolio = () => {
       <div className="my-10">
         <div className="grid-rows-1 mb-6 flex justify-between items-center">
           <h2 className="md:text-2xl text-xl font-bold">Playgrounds</h2>
-          <Link href="" className="font-semibold text-indigo-600 text-sm md:text-base"><span>Create new playground</span></Link>
+          <Link href="/settings/update-socials" className="font-semibold text-indigo-600 text-sm md:text-base"><span>Create new playground</span></Link>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           <div className="bg-zinc-50 rounded-lg border border-zinc-100 flex justify-start p-4">
