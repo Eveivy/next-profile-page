@@ -144,12 +144,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -168,24 +168,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
@@ -202,12 +202,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -226,24 +226,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
@@ -260,12 +260,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -284,24 +284,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
@@ -318,12 +318,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -342,24 +342,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
@@ -376,12 +376,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -400,24 +400,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
@@ -434,12 +434,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -458,24 +458,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
@@ -492,12 +492,12 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8297" x1="13.5867" y1="2.42538e-08" x2="1.9959" y2="16.038" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8297" x1="15.5359" y1="3.75" x2="2.66544" y2="9.83755" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8297">
                   <rect width="20" height="20" fill="white" />
@@ -516,24 +516,24 @@ const Resume = () => {
               </g>
               <defs>
                 <linearGradient id="paint0_linear_4_8301" x1="14.1026" y1="2.42538e-08" x2="3.07773" y2="17.4489" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#131416" />
-                  <stop offset="1" stop-color="#1A1B1F" />
+                  <stop stopColor="#131416" />
+                  <stop offset="1" stopColor="#1A1B1F" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_4_8301" x1="11.4576" y1="8.56543" x2="8.26944" y2="10.2831" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_4_8301" x1="17.8125" y1="7.05957" x2="10.4572" y2="17.4557" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_4_8301" x1="14.6471" y1="3.125" x2="3.04297" y2="7.33548" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_4_8301" x1="14.6761" y1="3.14087" x2="3.05004" y2="7.37365" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#B0FF4D" />
-                  <stop offset="1" stop-color="#FFE926" />
+                  <stop stopColor="#B0FF4D" />
+                  <stop offset="1" stopColor="#FFE926" />
                 </linearGradient>
                 <clipPath id="clip0_4_8301">
                   <rect width="20" height="20" fill="white" />
