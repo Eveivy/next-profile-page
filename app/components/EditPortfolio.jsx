@@ -12,7 +12,7 @@ const EditPortfolio = () => {
   const [checked, setChecked] = useState(0);
   const [checkedProject, setCheckedProject] = useState(0);
   const playgrounds = [1, 2, 3, 4];
-  const projects = [0, 9, 8, 7];
+  const projects = [6, 9, 8, 7];
 
   return (
     <div className="container">
@@ -79,8 +79,6 @@ const EditPortfolio = () => {
               )
             })
           }
-
-
         </div>
         <div className="mt-10">
           <div className="grid-rows-1 mb-6 flex justify-between items-center">
@@ -90,27 +88,58 @@ const EditPortfolio = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-5 ">
             {
               projects.map(el =>
-                <label key={el} htmlFor={el} className={`pointer rounded-lg border ${checkedProject == el ? 'bg-[#EEF2FF] border-indigo-700 border-2' : 'border-zinc-100 bg-zinc-50'} flex flex-col justify-center items-start p-4`}>
+                <label key={el} htmlFor={el} className={`cursor-pointer rounded-lg border ${checkedProject == el ? 'bg-[#EEF2FF] border-indigo-700 border-2' : 'border-zinc-100 bg-zinc-50'} flex flex-col justify-center items-start p-4`}>
                   <div className="w-full">
                     <Image src={portfolio} alt="portfolio sample" className="w-full" />
                   </div>
-                  <div className="mt-5">
+                  <div className="mt-5 w-full">
                     <div className="flex items-center justify-between">
-                      <h3 className="font-bold md:text-lg text-base text-zinc-900 mb-2">Personal Portfolio Website</h3>
-                      <span>
-                        <BiDotsHorizontalRounded />
+                      <h3 className="font-bold md:text-lg text-base text-zinc-900">Personal Portfolio Website</h3>
+                      <BiDotsHorizontalRounded className="text-zinc-500 h-5 w-5" />
+                    </div>
+                    <div className="flex items-center mt-2">
+                      <span className="text-zinc-500 text-sm font-medium">HTML/CSS</span>
+                      <span className="mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                          <circle cx="2" cy="2" r="2" fill="#71717A" />
+                        </svg>
                       </span>
+                      <span className="text-zinc-500 text-sm font-medium">Javascript</span>
+                      <span className="mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                          <circle cx="2" cy="2" r="2" fill="#71717A" />
+                        </svg>
+                      </span>
+                      <span className="text-zinc-500 text-sm font-medium">1 min ago</span>
                     </div>
-                    <div className="flex items-center flex-wrap">
+                    <div className="mt-3 flex items-center justify-between">
+                      <div className="flex items-center">
+                        <div className="relative w-12 flex items-center">
+                          <div className="absolute z-auto">
+                            <Image src={pic} alt="Image 1" className="h-6 w-6" />
+                          </div>
+                          <div className="absolute left-5 z-30">
+                            <Image src={pic} alt="Image 2" className="h-6 w-6" />
+                          </div>
+                          <div className="absolute left-2.5 z-20">
+                            <Image src={pic} alt="Image 2" className="h-6 w-6" />
+                          </div>
+                        </div>
+                        <p className="text-zinc-500 text-xs font-normal">3 Contributors</p>
+                      </div>
+                      <input id={el} type="radio" value={el} name={el} className="opacity-0" checked={checkedProject === el}
+                        onChange={(ev) => setCheckedProject(ev.target.value)} />
+                    </div>
 
-                      <input id={el} type="radio" value={el} name={el} className="opacity-0"  checked={checkedProject === el}
-                      onChange={(ev) => setCheckedProject(ev.target.value)} />
-                    </div>
                   </div>
-                </label> 
+                </label>
               )
             }
           </div>
+        </div>
+        <div className="mt-10 pb-10 flex justify-end items-start self-stretch">
+          <button className='bg-gray-100 px-4 py-2 h-10 rounded-lg mr-3 text-zinc-900 font-semibold text-sm'>Cancel</button>
+          <button className='bg-indigo-600 py-2 h-10 font-semibold px-4 rounded-lg text-white text-sm'>Save changes</button>
         </div>
       </div>
     </div>

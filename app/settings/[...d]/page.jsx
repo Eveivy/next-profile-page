@@ -16,7 +16,7 @@ const editPages = () => {
             path === "/settings/update-resume" ? <EditResume /> 
             : path === "/settings/update-socials" ?  <EditSocials /> 
             : path === "/settings/update-portfolio" ? <EditPortfolio />
-            : <EditProfile />
+            : path === "/settings" ? <EditProfile /> : <EditProfile /> 
         }
     </div>
   )

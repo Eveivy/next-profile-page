@@ -6,9 +6,12 @@ import Link from 'next/link'
 
 const Navtabs = ({title, path}) => {
 
-    const pathname = useSelectedLayoutSegment();
-    const active  = path === pathname 
+    const layout = useSelectedLayoutSegment();
+    const active  = path === layout; 
 
+    const pathname = usePathname();
+        // console.log(pathname)
+        // console.log(layout)
     return (
         <>
             {active && <div className="absolute bg-zinc-900 rounded-lg w-2.5 h-9 inset-y-0 left-0"></div>}
