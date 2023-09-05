@@ -17,7 +17,7 @@ const EditPortfolio = () => {
   return (
     <div className="container">
       <div className="my-10">
-        <div className="grid-rows-1 mb-6 flex justify-between items-center">
+        <div className="mb-6 flex justify-between items-center">
           <h2 className="md:text-2xl text-xl font-bold">Playgrounds</h2>
           <Link href="/settings/update-socials" className="font-normal text-zinc-500 text-sm md:text-base"><span>See all</span></Link>
         </div>
@@ -89,8 +89,16 @@ const EditPortfolio = () => {
             {
               projects.map(el =>
                 <label key={el} htmlFor={el} className={`cursor-pointer rounded-lg border ${checkedProject == el ? 'bg-[#EEF2FF] border-indigo-700 border-2' : 'border-zinc-100 bg-zinc-50'} flex flex-col justify-center items-start p-4`}>
-                  <div className="w-full">
+                  <div className="w-full relative">
                     <Image src={portfolio} alt="portfolio sample" className="w-full" />
+                    <div className="absolute flex items-center ml-2 mb-2 bottom-0">
+                      <div className="flex items-center justify-center py-0.5 px-3 rounded bg-sky-200 text-sky-900">
+                        <span className="text-xs font-medium">Badge</span>
+                      </div>
+                      <div className="ml-3 flex items-center justify-center py-0.5 px-3 rounded bg-sky-200 text-sky-900">
+                        <span className="text-xs font-medium">Badge</span>
+                      </div>
+                    </div>
                   </div>
                   <div className="mt-5 w-full">
                     <div className="flex items-center justify-between">

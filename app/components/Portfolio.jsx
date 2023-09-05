@@ -1,8 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
-import portfolio from "../../public/portfolio-sample.png"
-import blankSample from "../../public/blank-sample.png"
-import pic from "../../public/profile-pic.png"
+import portfolio from "@/public/portfolio-sample.png"
+import blankSample from "@/public/blank-sample.png"
+import pic from "@/public/profile-pic.png"
 
 const Portfolio = () => {
   return (

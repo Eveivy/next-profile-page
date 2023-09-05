@@ -1,5 +1,5 @@
 import Image from "next/image"
-import harvardLogo from "../../public/harvard.png"
+import harvardLogo from "@/public/harvard.png"
 
 const Resume = () => {
   return (
