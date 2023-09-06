@@ -13,9 +13,9 @@ const editPages = () => {
   return (
     <div className="xl:w-110 w-full xl:mr-28 xl:ml-14">
         {
-            path === "/settings/update-resume" ? <EditResume /> 
-            : path === "/settings/update-socials" ?  <EditSocials /> 
-            : path === "/settings/update-portfolio" ? <EditPortfolio />
+            path === "/settings/resume" ? <EditResume /> 
+            : path === "/settings/socials" ?  <EditSocials /> 
+            : path === "/settings/portfolio" ? <EditPortfolio />
             : path === "/settings" ? <EditProfile /> : <EditProfile /> 
         }
     </div>

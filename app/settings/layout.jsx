@@ -8,10 +8,10 @@ export const metadatas = {
 }
 
 export const menu = [
-    { id: 1, title: "Profile", pathname: "update-profile" },
-    { id: 2, title: "Socials", pathname: "update-socials" },
-    { id: 3, title: "Portfolio", pathname: "update-portfolio" },
-    { id: 4, title: "Resume", pathname: "update-resume" }
+    { id: 1, title: "Profile", pathname: "profile" },
+    { id: 2, title: "Socials", pathname: "socials" },
+    { id: 3, title: "Portfolio", pathname: "portfolio" },
+    { id: 4, title: "Resume", pathname: "resume" }
 ]
 
 const layout = ({ children }) => {

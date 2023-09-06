@@ -19,7 +19,7 @@ const EditPortfolio = () => {
       <div className="my-10">
         <div className="mb-6 flex justify-between items-center">
           <h2 className="md:text-2xl text-xl font-bold">Playgrounds</h2>
-          <Link href="/settings/update-socials" className="font-normal text-zinc-500 text-sm md:text-base"><span>See all</span></Link>
+          <Link href="/settings/socials" className="font-normal text-zinc-500 text-sm md:text-base"><span>See all</span></Link>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           {
@@ -83,12 +83,12 @@ const EditPortfolio = () => {
         <div className="mt-10">
           <div className="grid-rows-1 mb-6 flex justify-between items-center">
             <h2 className="md:text-2xl text-xl font-bold">Projects</h2>
-            <Link href="/settings/update-socials" className="font-normal text-zinc-500 text-sm md:text-base"><span>See all</span></Link>
+            <Link href="/settings/socials" className="font-normal text-zinc-500 text-sm md:text-base"><span>See all</span></Link>
           </div>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-5 ">
             {
               projects.map(el =>
-                <label key={el} htmlFor={el} className={`cursor-pointer rounded-lg border ${checkedProject == el ? 'bg-[#EEF2FF] border-indigo-700 border-2' : 'border-zinc-100 bg-zinc-50'} flex flex-col justify-center items-start p-4`}>
+                <label key={el} htmlFor={el} className={`cursor-pointer transition-all ease-in duration-100 rounded-lg border ${checkedProject == el ? 'bg-[#EEF2FF] border-indigo-700 border-2' : 'border-zinc-100 bg-zinc-50'} flex flex-col justify-center items-start p-4`}>
                   <div className="w-full relative">
                     <Image src={portfolio} alt="portfolio sample" className="w-full" />
                     <div className="absolute flex items-center ml-2 mb-2 bottom-0">
